@@ -1,25 +1,27 @@
 # Introduction
 
-Why This Topic?:
+### Why This Topic?
 
 One of the most common and fatal types of cancer in the world is lung cancer. Lung cancer patients continue to have a poor survival rate despite advancements in medical technology and therapy, and much more has to be discovered about the variables affecting patient outcomes. Comprehending these variables can aid in directing therapy choices, enhancing patient outcomes, and influencing healthcare regulations.
 
 Researchers can examine the amount of time until a specific event, like death or the evolution of a disease, occurs by using survival analysis, a potent statistical method. We can learn more about how various characteristics, including age, gender, performance scores, and therapy kinds, affect survival times by using survival analysis to lung cancer data. This type of analysis could advance our knowledge of lung cancer and ultimately lead to better patient care.
 
-Questions of Interest:
+### Questions of Interest
 
 The following important questions are the focus of this project:
+
 1. Overall Survival Probability: How likely is it that patients with lung cancer will survive over time?
 2. Effect of therapy and Demographics: How do therapy type, age, and gender impact lung cancer patients' survival times?
 3. Comparative Survival Analysis: What are the most important factors influencing survival outcomes, and how do survival curves vary among different groups?
 
-Context and Relevance:
+### Context and Relevance
 
 Due to its high mortality rate, lung cancer affects millions of people globally and has a major influence on public health systems. Healthcare professionals can create more individualised treatment programs, distribute resources efficiently, and even enhance patients' quality of life by looking at characteristics that affect survival.
+
 This project's data comes from clinical trials with people who have lung cancer, which offers a wealth of information for examining survival trends. We want to find significant insights that could advance the medical community's comprehension of lung cancer outcomes by utilising statistical methods including Kaplan-Meier curves, Cox Proportional Hazards models, and forest plots.
 
 
-Significance of This Study:
+### Significance of This Study
 
 Both researchers and medical professionals can benefit from the study's practical conclusions. Practitioners may be able to make more educated treatment decisions if they can identify the factors that have a substantial impact on survival times. This analysis also emphasises the significance of clinical and demographic aspects, providing a comprehensive perspective on the treatment of patients with lung cancer. The ultimate goal of this project is to assist with continued research aimed at raising the quality of life and survival rates for people with lung cancer.
 
