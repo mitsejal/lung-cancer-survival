@@ -10,9 +10,9 @@ Researchers can examine the amount of time until a specific event, like death or
 
 The following important questions are the focus of this project:
 
-1.⁠ ⁠Overall Survival Probability: How likely is it that patients with lung cancer will survive over time?
-2.⁠ ⁠Effect of therapy and Demographics: How do therapy type, age, and gender impact lung cancer patients' survival times?
-3.⁠ ⁠Comparative Survival Analysis: What are the most important factors influencing survival outcomes, and how do survival curves vary among different groups?
+1. Overall Survival Probability: How likely is it that patients with lung cancer will survive over time?
+2. Effect of therapy and Demographics: How do therapy type, age, and gender impact lung cancer patients' survival times?
+3. Comparative Survival Analysis: What are the most important factors influencing survival outcomes, and how do survival curves vary among different groups?
 
 ### Context and Relevance
 
@@ -24,3 +24,4 @@ This project's data comes from clinical trials with people who have lung cancer,
 ### Significance of This Study
 
 Both researchers and medical professionals can benefit from the study's practical conclusions. Practitioners may be able to make more educated treatment decisions if they can identify the factors that have a substantial impact on survival times. This analysis also emphasises the significance of clinical and demographic aspects, providing a comprehensive perspective on the treatment of patients with lung cancer. The ultimate goal of this project is to assist with continued research aimed at raising the quality of life and survival rates for people with lung cancer.
+
