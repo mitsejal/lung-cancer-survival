@@ -6,11 +6,11 @@ execute:
   echo: true
 
 book:
-  title: "YOUR PROJECT TITLE"
+  title: "LUNG CANCER SURVIVAL"
   author:
-    - AUTHOR1 (UNI1)
-    - AUTHOR2 (UNI2)
-  repo-url: https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME
+    - Neha Arun Angadi (naa2204)
+    - Sejal Mittal (sm5756)
+  repo-url: https://github.com/mitsejal/lung-cancer-survival.git
   date: today
   page-footer:
     right: |
@@ -25,7 +25,7 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     code-fold: true
 
 
