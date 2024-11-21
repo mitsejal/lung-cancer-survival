@@ -39,7 +39,6 @@ The dataset is part of the survival package in R and can be imported directly us
 # install.packages("survival")
 library(survival)
 suppressWarnings(data("lung")) # suppressing this warning, which shows up when we load the same data multiple time -> irrelevant warning
-head(lung)
 ```
 
 ## Missing value analysis
