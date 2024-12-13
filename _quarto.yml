@@ -28,4 +28,5 @@ format:
     theme: journal
     code-fold: true
 
-
+resources:
+  - data

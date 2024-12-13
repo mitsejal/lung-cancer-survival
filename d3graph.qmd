@@ -1,13 +1,56 @@
-# Interactive graph
+# Interactive Graph
 
-<style>
-  * {
-    font-family: sans-serif;
-  }
-</style> 
+The Kaplan-Meier survival curves below represent the survival probabilities of lung cancer patients over time, grouped by variables such as Sex, Age Group, and ECOG Status.
 
-<div id="plot">
+### Description:
+This analysis uses Kaplan-Meier survival curves to visualize survival probabilities over time for different patient groups. The curves allow for comparisons across variables such as 'Sex', 'Age Group', and 'ECOG Status'.
+
+- **Y-Axis**: Represents the survival probability, starting at 1.0 (100% survival) at the beginning of the study.
+- **X-Axis**: Tracks time in days, showing how survival probabilities decrease as time progresses.
+- **Survival Curves**: Each curve represents the survival trend for a specific group within the selected variable. A steeper decline in a curve indicates lower survival probabilities or faster mortality in that group.
+
+### Insights:
+1. **Trends in Survival**:
+   - Survival probabilities consistently decrease over time for all groups.
+   - A steeper decline in a curve indicates worse survival outcomes for that group.
+
+2. **Comparison Between Groups**:
+   - Groups with curves that remain higher over time have better survival probabilities.
+   - Clear differences in survival curves indicate that the selected variable (e.g., Sex, Age Group, or ECOG Status) has a meaningful impact on survival outcomes.
+
+3. **Long-Term Survival**:
+   - Groups with flatter curves or higher survival probabilities at the end of the graph are associated with better long-term survival outcomes.
+
+### Observations from the Graphs:
+1. **Survival by Sex**:
+   - Two curves represent Male and Female groups.
+   - If the Male curve declines more steeply than the Female curve, it suggests that males may have poorer survival outcomes.
+
+2. **Survival by Age Group**:
+   - Two curves represent Younger and Older patients (based on the median age of the dataset).
+   - A steeper decline for the Older group suggests that age significantly impacts survival, with younger patients having better outcomes.
+
+3. **Survival by ECOG Status**:
+   - Curves represent groups based on ECOG performance status, a measure of a patient's ability to perform daily activities (e.g., 0 = Fully active, 1 = Restricted in activities, etc.).
+   - Groups with worse ECOG scores (e.g., 1 or higher) show significantly poorer survival outcomes compared to those with better scores.
+
+### How This Analysis Helps:
+- This analysis provides critical insights for clinicians and researchers to:
+  - Identify high-risk groups based on variables such as Sex, Age Group, and ECOG Status.
+  - Tailor interventions to improve survival outcomes for specific groups.
+  - Investigate potential biological, treatment-related, or socio-economic factors that contribute to differences in survival probabilities.
+
+<div id="controls">
+  <label for="variable-dropdown">Select Variable:</label>
+  <select id="variable-dropdown">
+    <option value="sex">Sex</option>
+    <option value="age_group">Age Group</option>
+    <option value="ph.ecog">ECOG Status</option>
+  </select>
 </div>
+
+<div id="plot"></div>
+<div class="tooltip" id="tooltip" style="display: none;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="scripts/myscript.js"></script>

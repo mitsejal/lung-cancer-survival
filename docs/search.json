@@ -38,5 +38,25 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data</span>"
     ]
+  },
+  {
+    "objectID": "d3graph.html",
+    "href": "d3graph.html",
+    "title": "4  Interactive Graph",
+    "section": "",
+    "text": "The Kaplan-Meier survival curves below represent the survival probabilities of lung cancer patients over time, grouped by variables such as Sex, Age Group, and ECOG Status.\n\n4.0.1 Description:\nThis analysis uses Kaplan-Meier survival curves to visualize survival probabilities over time for different patient groups. The curves allow for comparisons across variables such as ‘Sex’, ‘Age Group’, and ‘ECOG Status’.\n\nY-Axis: Represents the survival probability, starting at 1.0 (100% survival) at the beginning of the study.\nX-Axis: Tracks time in days, showing how survival probabilities decrease as time progresses.\nSurvival Curves: Each curve represents the survival trend for a specific group within the selected variable. A steeper decline in a curve indicates lower survival probabilities or faster mortality in that group.\n\n\n\n4.0.2 Insights:\n\nTrends in Survival:\n\nSurvival probabilities consistently decrease over time for all groups.\nA steeper decline in a curve indicates worse survival outcomes for that group.\n\nComparison Between Groups:\n\nGroups with curves that remain higher over time have better survival probabilities.\nClear differences in survival curves indicate that the selected variable (e.g., Sex, Age Group, or ECOG Status) has a meaningful impact on survival outcomes.\n\nLong-Term Survival:\n\nGroups with flatter curves or higher survival probabilities at the end of the graph are associated with better long-term survival outcomes.\n\n\n\n\n4.0.3 Observations from the Graphs:\n\nSurvival by Sex:\n\nTwo curves represent Male and Female groups.\nIf the Male curve declines more steeply than the Female curve, it suggests that males may have poorer survival outcomes.\n\nSurvival by Age Group:\n\nTwo curves represent Younger and Older patients (based on the median age of the dataset).\nA steeper decline for the Older group suggests that age significantly impacts survival, with younger patients having better outcomes.\n\nSurvival by ECOG Status:\n\nCurves represent groups based on ECOG performance status, a measure of a patient’s ability to perform daily activities (e.g., 0 = Fully active, 1 = Restricted in activities, etc.).\nGroups with worse ECOG scores (e.g., 1 or higher) show significantly poorer survival outcomes compared to those with better scores.\n\n\n\n\n4.0.4 How This Analysis Helps:\n\nThis analysis provides critical insights for clinicians and researchers to:\n\nIdentify high-risk groups based on variables such as Sex, Age Group, and ECOG Status.\nTailor interventions to improve survival outcomes for specific groups.\nInvestigate potential biological, treatment-related, or socio-economic factors that contribute to differences in survival probabilities.\n\n\n\nSelect Variable:  Sex Age Group ECOG Status",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Interactive Graph</span>"
+    ]
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "5  Conclusion",
+    "section": "",
+    "text": "Using Kaplan-Meier survival curves, this analysis of survival probabilities for patients with lung cancer provided important new information on how factors including ECOG status, age group, and sex affect patient outcomes. Younger patients often had better survival outcomes than older ones, and patients with higher physical performance (lower ECOG scores) show considerably greater survival. These findings suggest that sex differences may have an impact on survival, with one group exhibiting lower survival odds. The study had several shortcomings, including a small dataset, unidentified confounders, and no statistical validation using tests like the log-rank test, even though the visualisations offered insightful information. By adding more variables, doing statistical analyses, and testing results on bigger, more varied datasets, future research could overcome these constraints. This project demonstrated the power of visualizing survival data to uncover actionable insights, paving the way for more targeted clinical interventions and personalized patient care.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
   }
 ]
