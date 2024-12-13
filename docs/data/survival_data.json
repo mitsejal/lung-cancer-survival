@@ -1,0 +1,2750 @@
+[
+  {
+    "time": 11,
+    "survival": 0.9783,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 12,
+    "survival": 0.971,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 13,
+    "survival": 0.9565,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 15,
+    "survival": 0.9493,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 26,
+    "survival": 0.942,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 30,
+    "survival": 0.9348,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 31,
+    "survival": 0.9275,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 53,
+    "survival": 0.913,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 54,
+    "survival": 0.9058,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 59,
+    "survival": 0.8986,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 60,
+    "survival": 0.8913,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 65,
+    "survival": 0.8768,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 71,
+    "survival": 0.8696,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 81,
+    "survival": 0.8623,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 88,
+    "survival": 0.8478,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 92,
+    "survival": 0.8406,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 93,
+    "survival": 0.8333,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 95,
+    "survival": 0.8261,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 105,
+    "survival": 0.8188,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 107,
+    "survival": 0.8116,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 110,
+    "survival": 0.8043,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 116,
+    "survival": 0.7971,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 118,
+    "survival": 0.7899,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 131,
+    "survival": 0.7826,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 132,
+    "survival": 0.7681,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 135,
+    "survival": 0.7609,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 142,
+    "survival": 0.7536,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 144,
+    "survival": 0.7464,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 147,
+    "survival": 0.7391,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 156,
+    "survival": 0.7246,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 163,
+    "survival": 0.7029,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 166,
+    "survival": 0.6957,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 170,
+    "survival": 0.6884,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 175,
+    "survival": 0.6811,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 176,
+    "survival": 0.6738,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 177,
+    "survival": 0.6664,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 179,
+    "survival": 0.6518,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 180,
+    "survival": 0.6445,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 181,
+    "survival": 0.6298,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 183,
+    "survival": 0.6225,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 189,
+    "survival": 0.615,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 197,
+    "survival": 0.6073,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 202,
+    "survival": 0.5995,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 207,
+    "survival": 0.5917,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 210,
+    "survival": 0.5839,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 212,
+    "survival": 0.5762,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 218,
+    "survival": 0.5684,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 222,
+    "survival": 0.5605,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 223,
+    "survival": 0.5525,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 229,
+    "survival": 0.5442,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 230,
+    "survival": 0.536,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 239,
+    "survival": 0.5276,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 246,
+    "survival": 0.5192,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 267,
+    "survival": 0.5107,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 269,
+    "survival": 0.5022,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 270,
+    "survival": 0.4937,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 283,
+    "survival": 0.485,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 284,
+    "survival": 0.4764,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 285,
+    "survival": 0.4676,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 286,
+    "survival": 0.4587,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 288,
+    "survival": 0.4499,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 291,
+    "survival": 0.4411,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 301,
+    "survival": 0.4319,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 303,
+    "survival": 0.4225,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 306,
+    "survival": 0.4129,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 310,
+    "survival": 0.4033,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 320,
+    "survival": 0.3937,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 329,
+    "survival": 0.3841,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 337,
+    "survival": 0.3745,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 353,
+    "survival": 0.3553,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 363,
+    "survival": 0.3457,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 364,
+    "survival": 0.3361,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 371,
+    "survival": 0.3265,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 387,
+    "survival": 0.3169,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 390,
+    "survival": 0.3073,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 394,
+    "survival": 0.2977,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 428,
+    "survival": 0.2874,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 429,
+    "survival": 0.2771,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 442,
+    "survival": 0.2669,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 455,
+    "survival": 0.2562,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 457,
+    "survival": 0.2455,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 460,
+    "survival": 0.2344,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 477,
+    "survival": 0.2232,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 519,
+    "survival": 0.2121,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 524,
+    "survival": 0.2009,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 533,
+    "survival": 0.1897,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 558,
+    "survival": 0.1786,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 567,
+    "survival": 0.1674,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 574,
+    "survival": 0.1562,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 583,
+    "survival": 0.1451,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 613,
+    "survival": 0.1339,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 624,
+    "survival": 0.1228,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 643,
+    "survival": 0.1116,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 655,
+    "survival": 0.1004,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 689,
+    "survival": 0.0893,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 707,
+    "survival": 0.0781,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 791,
+    "survival": 0.067,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 814,
+    "survival": 0.0536,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 883,
+    "survival": 0.0357,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 5,
+    "survival": 0.9889,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 60,
+    "survival": 0.9778,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 61,
+    "survival": 0.9667,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 62,
+    "survival": 0.9556,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 79,
+    "survival": 0.9444,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 81,
+    "survival": 0.9333,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 95,
+    "survival": 0.9221,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 107,
+    "survival": 0.9107,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 122,
+    "survival": 0.8993,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 145,
+    "survival": 0.8766,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 153,
+    "survival": 0.8652,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 166,
+    "survival": 0.8538,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 167,
+    "survival": 0.8424,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 182,
+    "survival": 0.8305,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 186,
+    "survival": 0.8187,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 194,
+    "survival": 0.8066,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 199,
+    "survival": 0.7946,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 201,
+    "survival": 0.7705,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 208,
+    "survival": 0.7581,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 226,
+    "survival": 0.7452,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 239,
+    "survival": 0.7322,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 245,
+    "survival": 0.7186,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 268,
+    "survival": 0.7045,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 285,
+    "survival": 0.6895,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 293,
+    "survival": 0.6742,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 305,
+    "survival": 0.6585,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 310,
+    "survival": 0.6428,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 340,
+    "survival": 0.6264,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 345,
+    "survival": 0.6099,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 348,
+    "survival": 0.5934,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 350,
+    "survival": 0.5769,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 351,
+    "survival": 0.5604,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 361,
+    "survival": 0.5434,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 363,
+    "survival": 0.5265,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 371,
+    "survival": 0.5089,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 426,
+    "survival": 0.4893,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 433,
+    "survival": 0.4698,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 444,
+    "survival": 0.4502,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 450,
+    "survival": 0.4306,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 473,
+    "survival": 0.411,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 520,
+    "survival": 0.3894,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 524,
+    "survival": 0.3678,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 550,
+    "survival": 0.3433,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 641,
+    "survival": 0.3121,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 654,
+    "survival": 0.2808,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 687,
+    "survival": 0.2496,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 705,
+    "survival": 0.2184,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 728,
+    "survival": 0.1872,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 731,
+    "survival": 0.156,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 735,
+    "survival": 0.1248,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 765,
+    "survival": 0.0832,
+    "sex": "get(group_var)=Male",
+    "variable": "sex"
+  },
+  {
+    "time": 5,
+    "survival": 0.991,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 11,
+    "survival": 0.964,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 12,
+    "survival": 0.955,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 13,
+    "survival": 0.9369,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 15,
+    "survival": 0.9279,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 26,
+    "survival": 0.9189,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 30,
+    "survival": 0.9099,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 31,
+    "survival": 0.9009,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 53,
+    "survival": 0.8919,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 54,
+    "survival": 0.8829,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 59,
+    "survival": 0.8739,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 60,
+    "survival": 0.8559,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 62,
+    "survival": 0.8468,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 65,
+    "survival": 0.8378,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 79,
+    "survival": 0.8288,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 88,
+    "survival": 0.8198,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 93,
+    "survival": 0.8107,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 95,
+    "survival": 0.8016,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 110,
+    "survival": 0.7924,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 116,
+    "survival": 0.7832,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 118,
+    "survival": 0.774,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 144,
+    "survival": 0.7647,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 153,
+    "survival": 0.7555,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 156,
+    "survival": 0.7463,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 163,
+    "survival": 0.7279,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 166,
+    "survival": 0.7187,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 175,
+    "survival": 0.7093,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 176,
+    "survival": 0.7,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 179,
+    "survival": 0.6907,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 183,
+    "survival": 0.6813,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 201,
+    "survival": 0.6619,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 207,
+    "survival": 0.652,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 208,
+    "survival": 0.6421,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 222,
+    "survival": 0.6319,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 229,
+    "survival": 0.6212,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 230,
+    "survival": 0.6105,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 239,
+    "survival": 0.5996,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 267,
+    "survival": 0.5887,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 269,
+    "survival": 0.5778,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 270,
+    "survival": 0.5667,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 283,
+    "survival": 0.5551,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 284,
+    "survival": 0.5436,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 285,
+    "survival": 0.5204,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 288,
+    "survival": 0.5089,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 301,
+    "survival": 0.497,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 303,
+    "survival": 0.4852,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 306,
+    "survival": 0.4734,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 310,
+    "survival": 0.4497,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 329,
+    "survival": 0.4379,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 345,
+    "survival": 0.426,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 350,
+    "survival": 0.4142,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 351,
+    "survival": 0.4024,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 353,
+    "survival": 0.3905,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 361,
+    "survival": 0.3787,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 363,
+    "survival": 0.3669,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 394,
+    "survival": 0.3546,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 426,
+    "survival": 0.3415,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 428,
+    "survival": 0.3284,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 442,
+    "survival": 0.3152,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 444,
+    "survival": 0.3021,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 450,
+    "survival": 0.289,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 455,
+    "survival": 0.2758,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 460,
+    "survival": 0.2627,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 473,
+    "survival": 0.2496,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 477,
+    "survival": 0.2364,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 520,
+    "survival": 0.2225,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 524,
+    "survival": 0.2086,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 550,
+    "survival": 0.1947,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 558,
+    "survival": 0.1797,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 583,
+    "survival": 0.1647,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 613,
+    "survival": 0.1483,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 643,
+    "survival": 0.1318,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 654,
+    "survival": 0.1153,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 728,
+    "survival": 0.0988,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 731,
+    "survival": 0.0824,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 735,
+    "survival": 0.0659,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 814,
+    "survival": 0.0494,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 53,
+    "survival": 0.9915,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 61,
+    "survival": 0.9829,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 65,
+    "survival": 0.9744,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 71,
+    "survival": 0.9658,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 81,
+    "survival": 0.9487,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 88,
+    "survival": 0.9402,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 92,
+    "survival": 0.9316,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 95,
+    "survival": 0.9231,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 105,
+    "survival": 0.9145,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 107,
+    "survival": 0.8974,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 122,
+    "survival": 0.8889,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 131,
+    "survival": 0.8803,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 132,
+    "survival": 0.8632,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 135,
+    "survival": 0.8547,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 142,
+    "survival": 0.8462,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 145,
+    "survival": 0.8291,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 147,
+    "survival": 0.8205,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 156,
+    "survival": 0.812,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 163,
+    "survival": 0.8034,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 166,
+    "survival": 0.7949,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 167,
+    "survival": 0.7863,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 170,
+    "survival": 0.7778,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 177,
+    "survival": 0.769,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 179,
+    "survival": 0.7602,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 180,
+    "survival": 0.7514,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 181,
+    "survival": 0.7337,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 182,
+    "survival": 0.7248,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 186,
+    "survival": 0.716,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 189,
+    "survival": 0.7072,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 194,
+    "survival": 0.6981,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 197,
+    "survival": 0.6889,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 199,
+    "survival": 0.6797,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 202,
+    "survival": 0.6705,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 210,
+    "survival": 0.6612,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 212,
+    "survival": 0.6519,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 218,
+    "survival": 0.6426,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 223,
+    "survival": 0.6333,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 226,
+    "survival": 0.6238,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 239,
+    "survival": 0.6142,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 245,
+    "survival": 0.6043,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 246,
+    "survival": 0.5944,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 268,
+    "survival": 0.584,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 286,
+    "survival": 0.5732,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 291,
+    "survival": 0.5624,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 293,
+    "survival": 0.5513,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 305,
+    "survival": 0.5394,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 320,
+    "survival": 0.5271,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 337,
+    "survival": 0.5145,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 340,
+    "survival": 0.502,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 348,
+    "survival": 0.4894,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 353,
+    "survival": 0.4769,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 363,
+    "survival": 0.464,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 364,
+    "survival": 0.4511,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 371,
+    "survival": 0.4253,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 387,
+    "survival": 0.4112,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 390,
+    "survival": 0.397,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 429,
+    "survival": 0.3828,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 433,
+    "survival": 0.3686,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 457,
+    "survival": 0.3539,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 519,
+    "survival": 0.3378,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 524,
+    "survival": 0.3217,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 533,
+    "survival": 0.3048,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 567,
+    "survival": 0.2857,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 574,
+    "survival": 0.2667,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 624,
+    "survival": 0.2476,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 641,
+    "survival": 0.2286,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 655,
+    "survival": 0.2095,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 687,
+    "survival": 0.1905,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 689,
+    "survival": 0.1714,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 705,
+    "survival": 0.1524,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 707,
+    "survival": 0.1333,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 765,
+    "survival": 0.1111,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 791,
+    "survival": 0.0889,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 883,
+    "survival": 0.0444,
+    "variable": "age_group",
+    "age_group": "get(group_var)=Older"
+  },
+  {
+    "time": 5,
+    "survival": 0.9841,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 11,
+    "survival": 0.9683,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 15,
+    "survival": 0.9524,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 31,
+    "survival": 0.9365,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 53,
+    "survival": 0.9206,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 65,
+    "survival": 0.9048,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 81,
+    "survival": 0.8889,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 147,
+    "survival": 0.873,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 166,
+    "survival": 0.8571,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 176,
+    "survival": 0.841,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 189,
+    "survival": 0.8248,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 201,
+    "survival": 0.8083,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 246,
+    "survival": 0.7899,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 267,
+    "survival": 0.7702,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 285,
+    "survival": 0.7488,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 286,
+    "survival": 0.7274,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 303,
+    "survival": 0.7047,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 320,
+    "survival": 0.6812,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 337,
+    "survival": 0.6568,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 340,
+    "survival": 0.6325,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 348,
+    "survival": 0.6082,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 350,
+    "survival": 0.5839,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 353,
+    "survival": 0.5352,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 371,
+    "survival": 0.5109,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 394,
+    "survival": 0.484,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 428,
+    "survival": 0.4571,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 433,
+    "survival": 0.4302,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 442,
+    "survival": 0.4033,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 455,
+    "survival": 0.3745,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 558,
+    "survival": 0.3433,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 574,
+    "survival": 0.309,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 643,
+    "survival": 0.2704,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 655,
+    "survival": 0.2317,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 705,
+    "survival": 0.1931,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 791,
+    "survival": 0.1545,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 883,
+    "survival": 0.0772,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 11,
+    "survival": 0.9912,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 13,
+    "survival": 0.9823,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 59,
+    "survival": 0.9735,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 60,
+    "survival": 0.9558,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 62,
+    "survival": 0.9469,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 79,
+    "survival": 0.9381,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 88,
+    "survival": 0.9204,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 92,
+    "survival": 0.9115,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 95,
+    "survival": 0.9027,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 107,
+    "survival": 0.8938,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 110,
+    "survival": 0.885,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 116,
+    "survival": 0.8761,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 131,
+    "survival": 0.8673,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 132,
+    "survival": 0.8584,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 135,
+    "survival": 0.8496,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 142,
+    "survival": 0.8407,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 144,
+    "survival": 0.8319,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 145,
+    "survival": 0.823,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 156,
+    "survival": 0.8142,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 163,
+    "survival": 0.7965,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 167,
+    "survival": 0.7876,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 170,
+    "survival": 0.7788,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 175,
+    "survival": 0.7697,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 179,
+    "survival": 0.7514,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 181,
+    "survival": 0.7331,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 182,
+    "survival": 0.7239,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 186,
+    "survival": 0.7146,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 194,
+    "survival": 0.7051,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 197,
+    "survival": 0.6954,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 202,
+    "survival": 0.6856,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 207,
+    "survival": 0.6757,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 210,
+    "survival": 0.6658,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 218,
+    "survival": 0.6558,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 223,
+    "survival": 0.6456,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 226,
+    "survival": 0.6352,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 229,
+    "survival": 0.6247,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 230,
+    "survival": 0.6143,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 239,
+    "survival": 0.6037,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 245,
+    "survival": 0.593,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 268,
+    "survival": 0.5822,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 269,
+    "survival": 0.5714,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 270,
+    "survival": 0.5606,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 283,
+    "survival": 0.5494,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 284,
+    "survival": 0.5382,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 293,
+    "survival": 0.527,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 301,
+    "survival": 0.5155,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 305,
+    "survival": 0.5035,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 306,
+    "survival": 0.4915,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 310,
+    "survival": 0.4796,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 345,
+    "survival": 0.4676,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 363,
+    "survival": 0.443,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 364,
+    "survival": 0.4307,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 371,
+    "survival": 0.418,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 390,
+    "survival": 0.4049,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 426,
+    "survival": 0.391,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 429,
+    "survival": 0.377,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 450,
+    "survival": 0.363,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 457,
+    "survival": 0.3491,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 460,
+    "survival": 0.3345,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 473,
+    "survival": 0.32,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 477,
+    "survival": 0.3054,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 519,
+    "survival": 0.2902,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 520,
+    "survival": 0.2749,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 524,
+    "survival": 0.2596,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 550,
+    "survival": 0.2434,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 567,
+    "survival": 0.2272,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 583,
+    "survival": 0.2109,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 613,
+    "survival": 0.1947,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 624,
+    "survival": 0.1785,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 641,
+    "survival": 0.1623,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 687,
+    "survival": 0.146,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 689,
+    "survival": 0.1298,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 728,
+    "survival": 0.1136,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 731,
+    "survival": 0.0974,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 735,
+    "survival": 0.0811,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 765,
+    "survival": 0.0608,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 11,
+    "survival": 0.98,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 12,
+    "survival": 0.96,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 13,
+    "survival": 0.94,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 26,
+    "survival": 0.92,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 30,
+    "survival": 0.9,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 53,
+    "survival": 0.88,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 54,
+    "survival": 0.86,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 61,
+    "survival": 0.84,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 65,
+    "survival": 0.82,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 81,
+    "survival": 0.8,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 93,
+    "survival": 0.7795,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 95,
+    "survival": 0.759,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 105,
+    "survival": 0.7385,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 107,
+    "survival": 0.7174,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 122,
+    "survival": 0.6963,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 132,
+    "survival": 0.6752,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 145,
+    "survival": 0.6541,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 153,
+    "survival": 0.633,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 156,
+    "survival": 0.6119,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 163,
+    "survival": 0.5908,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 166,
+    "survival": 0.5697,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 177,
+    "survival": 0.5486,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 180,
+    "survival": 0.5275,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 183,
+    "survival": 0.5064,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 199,
+    "survival": 0.4853,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 201,
+    "survival": 0.4642,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 208,
+    "survival": 0.4431,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 212,
+    "survival": 0.4209,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 222,
+    "survival": 0.3988,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 239,
+    "survival": 0.3766,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 285,
+    "survival": 0.3545,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 288,
+    "survival": 0.3323,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 291,
+    "survival": 0.3102,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 310,
+    "survival": 0.2863,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 329,
+    "survival": 0.2624,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 351,
+    "survival": 0.2386,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 361,
+    "survival": 0.2147,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 387,
+    "survival": 0.1909,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 444,
+    "survival": 0.167,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 524,
+    "survival": 0.1392,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 533,
+    "survival": 0.1113,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 654,
+    "survival": 0.0742,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 707,
+    "survival": 0.0371,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 814,
+    "survival": 0,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  },
+  {
+    "time": 118,
+    "survival": 0,
+    "variable": "ph.ecog",
+    "ph.ecog": "get(group_var)=0"
+  }
+]

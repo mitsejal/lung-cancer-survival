@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4&nbsp; Interactive graph – LUNG CANCER SURVIVAL</title>
+<title>4&nbsp; Interactive Graph – LUNG CANCER SURVIVAL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./d3graph.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive graph</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./d3graph.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive Graph</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./d3graph.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive graph</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive Graph</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -144,15 +144,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description"><span class="header-section-number">4.0.1</span> Description:</a></li>
+  <li><a href="#insights" id="toc-insights" class="nav-link" data-scroll-target="#insights"><span class="header-section-number">4.0.2</span> Insights:</a></li>
+  <li><a href="#observations-from-the-graphs" id="toc-observations-from-the-graphs" class="nav-link" data-scroll-target="#observations-from-the-graphs"><span class="header-section-number">4.0.3</span> Observations from the Graphs:</a></li>
+  <li><a href="#how-this-analysis-helps" id="toc-how-this-analysis-helps" class="nav-link" data-scroll-target="#how-this-analysis-helps"><span class="header-section-number">4.0.4</span> How This Analysis Helps:</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/edit/main/d3graph.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive graph</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Interactive Graph</span></h1>
 </div>
 
 
@@ -169,18 +178,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-  * {
-    font-family: sans-serif;
-  }
-</style>
+<p>The Kaplan-Meier survival curves below represent the survival probabilities of lung cancer patients over time, grouped by variables such as Sex, Age Group, and ECOG Status.</p>
+<section id="description" class="level3" data-number="4.0.1">
+<h3 data-number="4.0.1" class="anchored" data-anchor-id="description"><span class="header-section-number">4.0.1</span> Description:</h3>
+<p>This analysis uses Kaplan-Meier survival curves to visualize survival probabilities over time for different patient groups. The curves allow for comparisons across variables such as ‘Sex’, ‘Age Group’, and ‘ECOG Status’.</p>
+<ul>
+<li><strong>Y-Axis</strong>: Represents the survival probability, starting at 1.0 (100% survival) at the beginning of the study.</li>
+<li><strong>X-Axis</strong>: Tracks time in days, showing how survival probabilities decrease as time progresses.</li>
+<li><strong>Survival Curves</strong>: Each curve represents the survival trend for a specific group within the selected variable. A steeper decline in a curve indicates lower survival probabilities or faster mortality in that group.</li>
+</ul>
+</section>
+<section id="insights" class="level3" data-number="4.0.2">
+<h3 data-number="4.0.2" class="anchored" data-anchor-id="insights"><span class="header-section-number">4.0.2</span> Insights:</h3>
+<ol type="1">
+<li><strong>Trends in Survival</strong>:
+<ul>
+<li>Survival probabilities consistently decrease over time for all groups.</li>
+<li>A steeper decline in a curve indicates worse survival outcomes for that group.</li>
+</ul></li>
+<li><strong>Comparison Between Groups</strong>:
+<ul>
+<li>Groups with curves that remain higher over time have better survival probabilities.</li>
+<li>Clear differences in survival curves indicate that the selected variable (e.g., Sex, Age Group, or ECOG Status) has a meaningful impact on survival outcomes.</li>
+</ul></li>
+<li><strong>Long-Term Survival</strong>:
+<ul>
+<li>Groups with flatter curves or higher survival probabilities at the end of the graph are associated with better long-term survival outcomes.</li>
+</ul></li>
+</ol>
+</section>
+<section id="observations-from-the-graphs" class="level3" data-number="4.0.3">
+<h3 data-number="4.0.3" class="anchored" data-anchor-id="observations-from-the-graphs"><span class="header-section-number">4.0.3</span> Observations from the Graphs:</h3>
+<ol type="1">
+<li><strong>Survival by Sex</strong>:
+<ul>
+<li>Two curves represent Male and Female groups.</li>
+<li>If the Male curve declines more steeply than the Female curve, it suggests that males may have poorer survival outcomes.</li>
+</ul></li>
+<li><strong>Survival by Age Group</strong>:
+<ul>
+<li>Two curves represent Younger and Older patients (based on the median age of the dataset).</li>
+<li>A steeper decline for the Older group suggests that age significantly impacts survival, with younger patients having better outcomes.</li>
+</ul></li>
+<li><strong>Survival by ECOG Status</strong>:
+<ul>
+<li>Curves represent groups based on ECOG performance status, a measure of a patient’s ability to perform daily activities (e.g., 0 = Fully active, 1 = Restricted in activities, etc.).</li>
+<li>Groups with worse ECOG scores (e.g., 1 or higher) show significantly poorer survival outcomes compared to those with better scores.</li>
+</ul></li>
+</ol>
+</section>
+<section id="how-this-analysis-helps" class="level3" data-number="4.0.4">
+<h3 data-number="4.0.4" class="anchored" data-anchor-id="how-this-analysis-helps"><span class="header-section-number">4.0.4</span> How This Analysis Helps:</h3>
+<ul>
+<li>This analysis provides critical insights for clinicians and researchers to:
+<ul>
+<li>Identify high-risk groups based on variables such as Sex, Age Group, and ECOG Status.</li>
+<li>Tailor interventions to improve survival outcomes for specific groups.</li>
+<li>Investigate potential biological, treatment-related, or socio-economic factors that contribute to differences in survival probabilities.</li>
+</ul></li>
+</ul>
+<div id="controls">
+<p><label for="variable-dropdown">Select Variable:</label> <select id="variable-dropdown"> <option value="sex">Sex</option> <option value="age_group">Age Group</option> <option value="ph.ecog">ECOG Status</option> </select></p>
+</div>
 <div id="plot">
+
+</div>
+<div id="tooltip" class="tooltip" style="display: none;">
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="scripts/myscript.js"></script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -623,7 +693,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/edit/main/d3graph.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/edit/main/d3graph.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mitsejal/lung-cancer-survival.git/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
