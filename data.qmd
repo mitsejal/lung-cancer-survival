@@ -2,4 +2,127 @@
 
 ## Description
 
+The lung dataset from the R survival package is being used for this project. This dataset was carefully selected to examine survival outcomes in patients with lung cancer and is frequently used to illustrate survival analysis approaches.
+
+### Data Collection 
+
+The dataset was gathered from patients with lung cancer as part of an observational study or clinical trial. Researchers and medical professionals monitoring lung cancer patients over a predetermined time period may have captured the data.
+
+### Format
+
+The R software uses a data frame format for the lung dataset. Individual patients are represented by each row, while variables describing characteristics such as performance score, age, sex, censoring status, and survival time are represented by each column. It is a static dataset and does not receive regular updates.
+
+### Dimensions
+  
+  1. Rows: The dataset includes 228 observations (patients).
+  2. Columns: There are 10 variables, which include:
+          
+          a. time: Survival time in days.
+          b. status: Censoring status (1 if the event occurred, 0 if censored).
+          c. age: Patient’s age in years.
+          d. sex: Patient’s sex (1 = male, 2 = female).
+          e. ph.ecog: ECOG performance score (0 = asymptomatic, 1 = symptomatic but ambulatory, 2 = bedridden <50% of the time, etc.).
+          f. ph.karno, pat.karno, meal.cal, wt.loss, etc.
+
+
+### Potential Issues
+  
+  1. Missing Values: Some observations have missing data, particularly in variables like ph.karno (Karnofsky performance score), meal.cal (caloric intake), and wt.loss (weight loss).
+  2. Data Sparsity: As it’s a small dataset, detailed subgroup analysis may lack statistical power.
+  3. Data Encoding: Certain variables are encoded as numeric values (e.g., sex and status), requiring careful interpretation to avoid confusion.
+  
+### Data import
+
+The dataset is part of the survival package in R and can be imported directly using the command data(lung) after loading the survival package. The code snippet for the same is shown below:
+  
+```{r}
+# install.packages("survival")
+library(survival)
+suppressWarnings(data("lung")) # suppressing this warning, which shows up when we load the same data multiple time -> irrelevant warning
+```
+
 ## Missing value analysis
+
+### Overview of Missing Values
+The lung dataset contains some missing values in specific variables. Understanding these missing values is essential as they can impact the accuracy of our survival analysis. To visualize the presence of missing values:
+
+```{r}
+# install.packages("ggplot2")
+# install.packages("naniar")
+library(ggplot2)
+library(naniar)
+gg_miss_var(lung)
+```
+
+Observations:
+
+1. The variable meal.cal has the highest number of missing values, with the line extending to the right side of the chart, indicating approximately 45 missing values.
+2. wt.loss has the second-highest number of missing values, followed by pat.karno.
+3. Some variables, like time, status, sex, and age, have no missing values (indicated by points at zero on the x-axis).
+4. Variables with shorter lines, such as ph.karno and ph.ecog, have fewer missing values, suggesting they have only a small portion of data missing.
+
+### Patterns in Missing Values
+
+To analyze the missing values, a heatmap or bar plot can show which variables have missing entries. Additionally, checking correlations between missing values can help understand if there is a pattern (e.g., if patients with high Karnofsky scores also have missing caloric intake). Below is a heatmap to show the distribution in the data:
+
+```{r}
+# install.packages("dplyr")
+library(dplyr)
+
+missing_data <- lung |> select(where(~ any(is.na(.))))
+missing_corr <- cor(is.na(missing_data) * 1, use = "pairwise.complete.obs")
+
+library(reshape2)
+melted_corr <- melt(missing_corr)
+ggplot(melted_corr, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white",
+                       midpoint = 0, limit = c(-1, 1), space = "Lab",
+                       name="Correlation") +
+  theme_minimal() +
+  labs(title = "Correlation of Missing Values",
+       x = "Variables", y = "Variables") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+Observations:
+
+1. Minimal or No Correlation Across Missing Values: Most of the cells in the heatmap are very light, close to white, indicating minimal to no correlation between missing values of different variables. This suggests that missing values in one variable do not strongly predict missing values in other variables.
+
+2. Slight Patterns: There are a few faint shades of color, especially between some pairs like ph.karno and meal.cal or ph.ecog and wt.loss, but these correlations are very weak, suggesting only a very slight pattern in the missing values.
+  
+3. Conclusion: Based on this heatmap, there does not appear to be a meaningful correlation pattern between the missing values across variables. This suggests that each variable’s missing data is likely random or independent of other variables in terms of missing values.
+
+
+### Handling Missing Values
+The strategies for handling missing data can be examined based on its distribution and importance:
+
+1. Omitting missing values: If the number of missing entries is small, we may exclude those cases.
+2. Imputation: For critical variables with many missing values, we could consider mean, median, or mode imputation or more sophisticated techniques, like multiple imputation, if needed.
+
+Given that this dataset is small, it is better to impute values, than omit the missing ones.
+
+1. For numerical columns (ph.karno, meal.cal, wt.loss), we can use median imputation to preserve the distribution.
+2. For categorical variables (if any, such as sex), we could impute using the mode (most frequent value).
+
+The same is done below:
+```{r}
+lung <- lung |>
+  mutate(
+    ph.karno = ifelse(is.na(ph.karno), median(ph.karno, na.rm = TRUE), ph.karno),
+    meal.cal = ifelse(is.na(meal.cal), median(meal.cal, na.rm = TRUE), meal.cal),
+    wt.loss = ifelse(is.na(wt.loss), median(wt.loss, na.rm = TRUE), wt.loss)
+  )
+
+summary(lung)
+```
+As shown above, the columns with higher missing values have been imputed successfully. There are three other columns, namely "inst", "pat.karno", and "ph.ecog" which have missing values. But the number of missing values is negligible. We will be dropping those rows. This is better to ensure that the integrity of the data is maintained, since we would not want to have too much bias by imputing for missing values. Code for the same is as shown below:
+
+```{r}
+lung_cleaned <- lung |>
+  filter(!is.na(inst), !is.na(pat.karno), !is.na(ph.ecog))
+
+summary(lung_cleaned)
+```
+
+As seen above, there are no missing values in the dataset anymore.
